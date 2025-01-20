@@ -7,4 +7,4 @@ gen:
 	go generate ./...
 
 test: setup gen
-	go test ./... -cover
+	go test ./... -cover -race

@@ -1,4 +1,4 @@
-.PHONY: setup
+.PHONY: setup gen test
 
 setup:
 	go install go.uber.org/mock/mockgen@latest
